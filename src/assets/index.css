@@ -1,0 +1,102 @@
+.poppinsRegular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppinsMedium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppinsSemibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppinsBold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppinsRegularItalic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppinsMediumItalic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppinsSemiboldItalic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppinsBoldItalic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*Default Component*/
+:root {
+    --palette-primary-main: #ff64ae;
+
+    --typography-main: #091156;
+    --typography-secondary: #8b8b8b;
+    --typography-info: #d7dbff; /*màu chữ dưới footer*/
+
+    --typography-contrast: #fff;
+    --palette-primary-contrast: #fff;
+
+    --box-shadow: #f6f7ff;
+
+    /* --font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+    --font-family: Poppins;
+
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+    --spacing-1: 8px;
+    --spacing-2: 16px;
+    --spacing-3: 24px;
+    --spacing-4: 32px;
+    --spacing-5: 40px;
+    --spacing-6: 48px;
+    --spacing-7: 56px;
+    --spacing-8: 64px;
+    --spacing-9: 72px;
+    --spacing-10: 80px;
+    --spacing-11: 88px;
+    --spacing-12: 96px;
+    --spacing-13: 104px;
+    --spacing-14: 112px;
+    --spacing-15: 120px;
+    --spacing-16: 128px;
+    --spacing-17: 136px;
+    --spacing-18: 144px;
+    --spacing-19: 152px;
+    --spacing-20: 160px;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+}
