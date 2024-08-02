@@ -1,4 +1,3 @@
-import React from "react";
 import { Box } from "~/components/Box";
 import { Typography } from "~/components/Typography";
 import Ava0 from "/av0.jpg";

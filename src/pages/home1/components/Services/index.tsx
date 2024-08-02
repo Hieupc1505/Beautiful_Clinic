@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Box } from "~/components/Box";
 import { Typography } from "~/components/Typography";
 import Animation1 from "/Animation1.png";

@@ -1,4 +1,3 @@
-import React from "react";
 // import FooterImg from '/footer.png'
 import { Box } from "~/components/Box";
 import { Typography } from "~/components/Typography";

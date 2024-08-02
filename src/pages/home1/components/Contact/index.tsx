@@ -1,4 +1,3 @@
-import React from "react";
 import { Box } from "~/components/Box";
 import contactImg from "/contact.png";
 import { Typography } from "~/components/Typography";
