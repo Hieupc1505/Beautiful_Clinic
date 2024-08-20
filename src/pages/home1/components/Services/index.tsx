@@ -25,7 +25,6 @@ const Service = () => {
             {
                 root: null,
                 rootMargin: "0px",
-
                 threshold: [0.2, 0.7, 0.8],
             }
         );

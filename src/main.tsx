@@ -4,6 +4,7 @@ import App from "./App";
 import { createContext, useContext } from "react";
 import theme from "./themes/index";
 import "./assets/index.css";
+import "./index.css";
 
 const ThemeContext = createContext(theme);
 

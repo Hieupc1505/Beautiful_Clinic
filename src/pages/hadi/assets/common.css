@@ -1,0 +1,130 @@
+.search-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Hero  */
+.hero {
+    height: 85vh;
+    margin-top: -97px;
+}
+.hero::after {
+    content: ""; /* Nội dung trống */
+    background-image: url("/hadi/bg.jpg");
+    height: 100%;
+    @apply absolute block inset-0 bg-no-repeat bg-cover bg-center top-0;
+    z-index: -1;
+}
+
+.ft-info-title,
+.txt-shadow {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.ft-card {
+    border: 1px solid #eeeeee;
+}
+.ft-card:hover,
+.ft-card.active {
+    box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+    transition: all 1s;
+}
+.ft-card-img {
+    width: 70px;
+    height: 70px;
+}
+
+.txt-read-more {
+}
+
+.txt-read-more::before {
+    content: "";
+    @apply absolute left-0 h-0.5 w-[25%] bg-primary transition-all duration-300 ease-in-out;
+    top: calc(100% + 8px);
+}
+
+.txt-read-more:hover::before {
+    @apply w-[100%];
+}
+
+.btn-options {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.counter-circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(#f9f9f9 50%, #f2f2f2 50%);
+    box-shadow: 0 -5px 0 rgba(255, 255, 255, 0.8),
+        0 10px 10px rgba(0, 0, 0, 0.3);
+    @apply text-primary-light;
+}
+
+.counter-number {
+    display: block;
+    -webkit-text-fill-color: #ddd;
+    -webkit-text-stroke-color: #ff9101;
+    -webkit-text-stroke-width: 2px;
+    @apply font-bold text-7xl;
+}
+.counter-card-icon {
+    width: 50px;
+    height: auto;
+}
+.counter-bg-under {
+    content: "";
+    height: 64%;
+    top: 50%;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    z-index: -1;
+
+    @apply bg-primary;
+}
+
+.counter-bg-under::before {
+    content: "";
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%); /* Căn giữa tam giác */
+    width: 0;
+    height: 0;
+    top: 96%;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #ff9101; /* Màu tam giác */
+}
+
+.media-item {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-left: 3px solid #ffc152;
+    border-radius: 8px;
+}
+.border-eeeeee {
+    border-color: #eeeeee;
+}
+.review-card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    margin-top: -50px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.divider-rv {
+    transform: translateY(-14px);
+}
+
+.teacher-card {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.slick-slide {
+    overflow: hidden;
+}
